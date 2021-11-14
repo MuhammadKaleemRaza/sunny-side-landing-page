@@ -37,3 +37,68 @@
         background-size: cover;
    }
 }
+
+@media screen and (max-width: 776px) {
+    .article-section {
+        grid-template-columns: repeat(1, 100vw);
+        grid-template-rows: repeat(6, 1fr);
+        height: 2500px;
+        overflow: hidden;
+    }
+    .firstrow-secondcolumn {
+        grid-row: 1 / 2;
+        background: url('images/mobile/image-transform.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .first-row-first-column .section-headings{
+        text-align: center;
+        font-size: 28px;
+    }
+    .first-half-1 {
+        width: 200px;
+    }
+    .first-row-first-column p {
+        text-align: center;
+        font-size: 12px;
+    }
+    .btn-sm {
+        display: block;
+        margin: auto;
+    }
+    .secondrow-firstcolumn {
+        background: url('images/mobile/image-stand-out.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .secondrow-secondcolumn p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .secondrow-secondcolumn h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .second-half-2 {
+        width: 200px;
+    }
+    .first-half-3 {
+        background: url('images/mobile/image-graphic-design.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .first-half-3 .section-headings {
+        font-size: 28px;
+    }
+    .first-half-3 p {
+        font-size: 12px;
+    }
+    .cherry-div {
+        width: 250px;
+    }
+    .second-half-3 {
+        background: url('images/mobile/image-photography.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+}

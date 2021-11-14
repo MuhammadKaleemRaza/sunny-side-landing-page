@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Fraunces';
+    overflow-x: hidden;
 }
 
 
