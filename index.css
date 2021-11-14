@@ -95,7 +95,6 @@ body {
     height: 1400px;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(3, 1fr);
-    /* border: 2px solid red; */
     background-color: gray;
 }
 
@@ -398,4 +397,8 @@ body {
     width: 200px;
     display: flex;
     justify-content: space-evenly;
+}
+
+#burger {
+    display: none;
 }

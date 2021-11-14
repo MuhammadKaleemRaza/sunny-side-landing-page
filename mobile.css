@@ -1,0 +1,39 @@
+@media screen and (max-width: 700px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+    #nav-list {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        background-color: white;
+        position: absolute;
+        top: 65px;
+        left: 60px;
+        transition: all 0.2s ease-in;
+    }
+    #nav-list .nav-items {
+        padding: 30px;
+        color: grey;
+        font-weight: bold;
+    }
+    .logo {
+        position: relative;
+        top: 18px;
+    }
+    #burger {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 20px;
+    }
+    .v-height-resp {
+        visibility: hidden;
+    }
+    #header {
+        height: 550px;
+        background: url('images/mobile/image-header.jpg');
+        background-position: center;
+        background-size: cover;
+   }
+}
