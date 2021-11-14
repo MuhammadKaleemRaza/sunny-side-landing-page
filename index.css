@@ -360,6 +360,7 @@ body {
     background-position: center;
 }
 
+
 /* FOOTER  */
 
 
@@ -371,19 +372,27 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
 .footer-logo {
     margin: 15px;
     
 }
+
+
 .footer-list {
     display: flex;
 }
+
+
 .footer-list .footer-items {
     list-style-type: none;
     padding: 5px 12px;
     color: black;
     font-weight: bold;
 }
+
+
 .icons {
     margin: 15px;
     width: 200px;
